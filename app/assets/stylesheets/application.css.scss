@@ -13,20 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-@import "bootstrap";
-
-
-body {
-  background: asset-url("theTile.png") repeat center center;
-
-  .container {
-    width: 99%;
-    .header {
-      color: #ffffff;
-      margin-left: 40%;
-      margin-bottom: 20px;
-    }
-  }
-
-}

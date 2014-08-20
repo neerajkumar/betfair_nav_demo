@@ -29,7 +29,11 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'angularjs-rails'
 
-gem 'bootstrap-sass'
+gem "therubyracer"
+gem "less-rails"
+
+gem 'twitter-bootstrap-rails'
+#gem 'bootstrap-sass'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
