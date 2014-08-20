@@ -1,0 +1,17 @@
+<%= form_for(@betfair_root) do |f| %>
+  <% if @betfair_root.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@betfair_root.errors.count, "error") %> prohibited this betfair_root from being saved:</h2>
+
+      <ul>
+      <% @betfair_root.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

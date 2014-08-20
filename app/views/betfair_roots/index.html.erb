@@ -1,0 +1,23 @@
+<h1>Listing betfair_roots</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @betfair_roots.each do |betfair_root| %>
+      <tr>
+        <td><%= link_to 'Show', betfair_root %></td>
+        <td><%= link_to 'Edit', edit_betfair_root_path(betfair_root) %></td>
+        <td><%= link_to 'Destroy', betfair_root, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Betfair root', new_betfair_root_path %>
