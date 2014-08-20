@@ -1,0 +1,2 @@
+module AngularClientsHelper
+end

@@ -1,0 +1,13 @@
+<h1 class="header">Angular Client</h1>
+
+<div ng-controller="betfairRootCtrl">
+<form>
+  <input type="text" ng-model="newEntry.name">
+</form>
+
+<ul>
+  <li ng-repeat="entry in entries">
+    {{entry.name}}
+  </li>
+</ul>
+</div>
