@@ -2,11 +2,22 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-#angular_client = angular.module('angular_client', ['ngResource'])
+#= require_self
 
-@betfairRootCtrl = ($scope) ->
-  $scope.entries = [
-    {name: "Sandeep"}
-    {name: "Pankaj"}
-    {name: "Neeraj"}
-  ]
+angular_client = angular.module('angular_client', ['ngResource'])
+
+@sportsCtrl = ($scope, $location) ->
+  $scope.viewSports = ->
+    $location.url('/sports')
+
+@betfairRootCtrl = ($scope, $http, $location) ->
+  $http.get("/api/betfair_roots.json").success (data) ->
+    $scope.sports = data
+
+  $scope.viewSport = (sportName) ->
+    $location.url('/sport/'+sportName)
+
+
+@sportCtrl = ($scope, $routeParams) ->
+  $scope.sportName = $routeParams.sportName
+  console.log($routeParams)
