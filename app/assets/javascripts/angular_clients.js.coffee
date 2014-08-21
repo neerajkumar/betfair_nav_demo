@@ -8,7 +8,7 @@ angular_client = angular.module('angular_client', ['ngResource'])
 
 @sportsCtrl = ($scope, $location) ->
   $scope.viewSports = ->
-    $location.url('/sports')
+    $location.url('/event_types')
 
 @betfairRootCtrl = ($scope, $http, $location) ->
   $http.get("/api/betfair_roots.json").success (data) ->

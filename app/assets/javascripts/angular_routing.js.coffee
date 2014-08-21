@@ -3,10 +3,10 @@ angular_client = angular.module('angular_client', ['ngRoute'])
 angular_client.config [
   "$routeProvider"
   ($routeProvider) ->
-    $routeProvider.when('/sports',{
+    $routeProvider.when('/event_types',{
         templateUrl: "../assets/sports.html",
         controller: "betfairRootCtrl"
-    }).when('/sports/:sportName',{
+    }).when('/event_types/:sportName',{
         templateUrl: "../assets/sport.html",
         controller: "sportCtrl"
     }).otherwise({
