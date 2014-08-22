@@ -1,1 +1,9 @@
-{{sportName}}
+<div class="row">
+    <div class="span12">
+        <ul>
+            <li ng-repeat="event in events">
+                <a href="#/events/{{event.id}}">{{event.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div><!--/row-->

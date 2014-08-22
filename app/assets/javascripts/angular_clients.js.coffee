@@ -18,6 +18,16 @@ angular_client = angular.module('angular_client', ['ngResource'])
     $location.url('/sport/'+sportName)
 
 
-@sportCtrl = ($scope, $routeParams) ->
+@sportCtrl = ($scope, $http, $routeParams) ->
   $scope.sportName = $routeParams.sportName
+
+  $http.get("/api/betfair_roots/events.json?event_name="+$routeParams.sportName).success (data) ->
+    $scope.events = data
+  console.log($routeParams)
+
+@eventCtrl = ($scope, $http, $routeParams) ->
+  $scope.eventName = $routeParams.eventName
+
+  $http.get("/api/betfair_roots/events.json").success (data) ->
+    $scope.events = data
   console.log($routeParams)

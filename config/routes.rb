@@ -4,7 +4,11 @@ Rails.application.routes.draw do
   resources :angular_clients
 
   namespace :api, defaults: {format: :json} do
-    resources :betfair_roots, only: [:index]
+    resources :betfair_roots, only: [:index] do
+      collection do
+        get "events"
+      end
+    end
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

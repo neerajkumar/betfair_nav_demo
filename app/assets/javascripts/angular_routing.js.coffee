@@ -9,6 +9,9 @@ angular_client.config [
     }).when('/event_types/:sportName',{
         templateUrl: "../assets/sport.html",
         controller: "sportCtrl"
+    }).when('/events/:eventId',{
+        templateUrl: "../assets/sport.html",
+        controller: "eventCtrl"
     }).otherwise({
         templateUrl: '../assets/main.html',
         controller: "sportsCtrl"
