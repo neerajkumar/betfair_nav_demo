@@ -13,11 +13,11 @@ class Api::BetfairRootsController < ApplicationController
   end
 
   def events
-    events = Betfair.events(params[:event_name])
+    events = Betfair.new().events(params[:event])
 
     respond_to do |format|
       format.json do
-        render json: events
+        render json: events.to_json
       end
     end
   end
