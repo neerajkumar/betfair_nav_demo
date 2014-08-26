@@ -6,28 +6,54 @@
 
 angular_client = angular.module('angular_client', ['ngResource'])
 
+foo = []
+data = []
+
 @sportsCtrl = ($scope, $location) ->
   $scope.viewSports = ->
     $location.url('/event_types')
 
-@betfairRootCtrl = ($scope, $http, $location) ->
-  $http.get("/api/betfair_roots.json").success (data) ->
-    $scope.sports = data
-
+@betfairRootCtrl = ['$scope', 'items', '$location', ($scope, items, $location) ->
+  foo = items.query()
+  $scope.sports = foo
   $scope.viewSport = (sportName) ->
     $location.url('/sport/'+sportName)
+]
 
+extractData = (json, sportName) ->
+  i = 0
 
-@sportCtrl = ($scope, $http, $routeParams) ->
+  while i < json.length
+    if json[i]["type"] == "MARKET"
+      return
+    if json[i]["name"] == sportName
+      data = json[i]["children"]
+      break
+    else if json[i]["children"] is undefined
+      return
+    else
+      extractData json[i]["children"], sportName
+    i++
+  return data if data.length > 0
+
+@sportCtrl = ['$scope', 'items', '$routeParams', ($scope, items, $routeParams) ->
   $scope.sport = $routeParams.sportName
+  if foo.length == 0
+    foo = items.query()
+    foo.$promise.then((result) ->
+      $scope.events = extractData(result, $routeParams.sportName)
+    )
+  else
+    $scope.events = extractData(foo, $routeParams.sportName)
+]
 
-  $http.get("/api/betfair_roots/events.json?event="+$routeParams.sportName).success (data) ->
-    $scope.events = data
-  console.log($routeParams)
-
-@eventCtrl = ($scope, $http, $routeParams) ->
-  $scope.event = $routeParams.eventId
-
-  $http.get("/api/betfair_roots/events.json?event="+$routeParams.eventId).success (data) ->
-    $scope.events = data
-  console.log($routeParams)
+@eventCtrl = ['$scope', 'items', '$routeParams', ($scope, items, $routeParams) ->
+  $scope.event = $routeParams.eventName
+  if foo.length == 0
+    foo = items.query()
+    foo.$promise.then((result) ->
+      $scope.events = extractData(result, $routeParams.eventName)
+    )
+  else
+    $scope.events = extractData(foo, $routeParams.eventName)
+]

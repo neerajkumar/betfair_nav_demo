@@ -1,4 +1,8 @@
-angular_client = angular.module('angular_client', ['ngRoute'])
+angular_client = angular.module('angular_client', ['ngResource', 'ngRoute'])
+
+angular_client.factory 'items', ['$resource', ($resource) ->
+  data = $resource('/api/betfair_roots.json')
+]
 
 angular_client.config [
   "$routeProvider"
@@ -9,7 +13,7 @@ angular_client.config [
     }).when('/event_types/:sportName',{
         templateUrl: "../assets/sport.html",
         controller: "sportCtrl"
-    }).when('/events/:eventId',{
+    }).when('/events/:eventName',{
         templateUrl: "../assets/sport.html",
         controller: "eventCtrl"
     }).otherwise({
