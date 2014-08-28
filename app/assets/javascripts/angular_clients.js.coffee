@@ -8,6 +8,7 @@ angular_client = angular.module('angular_client', ['ngResource'])
 
 foo = []
 data = []
+breadcrum = ["Sport"]
 
 @sportsCtrl = ($scope, $location) ->
   $scope.viewSports = ->
@@ -37,7 +38,9 @@ extractData = (json, sportName) ->
   return data if data.length > 0
 
 @sportCtrl = ['$scope', 'items', '$routeParams', ($scope, items, $routeParams) ->
-  $scope.sport = $routeParams.sportName
+  $scope.event_type = $routeParams.sportName
+  breadcrum.push($routeParams.sportName)
+  $scope.breadcrum = breadcrum
   if foo.length == 0
     foo = items.query()
     foo.$promise.then((result) ->
@@ -48,7 +51,9 @@ extractData = (json, sportName) ->
 ]
 
 @eventCtrl = ['$scope', 'items', '$routeParams', ($scope, items, $routeParams) ->
-  $scope.event = $routeParams.eventName
+  $scope.eventId = $routeParams.eventId
+  $scope.eventName = $routeParams.eventName
+#  breadcrum.push($routeParams.eventName)
   if foo.length == 0
     foo = items.query()
     foo.$promise.then((result) ->
@@ -56,4 +61,5 @@ extractData = (json, sportName) ->
     )
   else
     $scope.events = extractData(foo, $routeParams.eventName)
+  $scope.breadcrum = breadcrum
 ]

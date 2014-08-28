@@ -35,6 +35,8 @@ gem "less-rails"
 gem 'twitter-bootstrap-rails'
 #gem 'bootstrap-sass'
 
+gem "browserify-rails", "~> 0.3"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

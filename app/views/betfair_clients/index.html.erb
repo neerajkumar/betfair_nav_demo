@@ -1,8 +1,15 @@
 <div class="navbar navbar-default navbar-static-top">
   <a href="#" class="brand"><h1>Angular Client</h1></a>
 </div>
-<div class="container" ncy-breadcrumb></div>
-<div class="container" ng-view></div>
+
+<ul>
+  <li>
+    <%= link_to "Angular Client", angular_clients_path -%>
+  </li>
+  <li>
+    <%= link_to "Ampersand Client", "/ampersand_client" -%>
+  </li>
+</ul>
 <footer>
   <p>&copy; Company 2014</p>
 </footer>
