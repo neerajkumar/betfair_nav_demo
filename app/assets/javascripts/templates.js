@@ -29,8 +29,8 @@
     };
 
     // includes/person.jade compiled template
-    templatizer["includes"]["event"] = function tmpl_includes_event() {
-        return '<li class="person list-group-item"><a role="eventName" data-hook="eventName"></a></li>';
+    templatizer["pages"]["event"] = function tmpl_pages_eventView() {
+        return '<section class="page view-person"><ul role="events-list" class="list-group"></ul></section>'
     };
 
     // pages/collectionDemo.jade compiled template
@@ -44,7 +44,7 @@
 
     // pages/personView.jade compiled template
     templatizer["pages"]["personView"] = function tmpl_pages_personView() {
-        return '<section class="page view-person"><h2 role="eventTypeName"></h2><img role="avatar" width="80" height="80"/><div class="buttons"><a role="edit" class="btn">Edit</a><button role="delete" class="btn">Delete</button></div></section>';
+        return '<section class="page view-person"><h2 role="name"></h2><a role="childName"></a><img role="avatar" width="80" height="80"/><div class="buttons"><a role="edit" class="btn">Edit</a><button role="delete" class="btn">Delete</button></div></section>';
     };
 
     return templatizer;

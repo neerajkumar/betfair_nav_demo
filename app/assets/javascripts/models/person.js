@@ -43,6 +43,16 @@ module.exports = AmpersandModel.extend({
             fn: function() {
                 return this.name
             }
+        },
+        childrenNames:{
+            deps: ['children'],
+            fn: function () {
+                var events = []
+                for(var i = 0; i < this.children.length; i++){
+                    events.push(this.children[i].name)
+                }
+                return events.join(", ")
+            }
         }
     }
 });

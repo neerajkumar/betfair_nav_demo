@@ -4,15 +4,11 @@ var templates = require('../templates');
 module.exports = View.extend({
     template: templates.includes.event,
     bindings: {
-        'model.viewEventUrl': {
-            type: 'attribute',
-            role: 'eventName',
-            name: 'href'
-        },
+        'model.name': '[role=eventName]',
         'model.children': '[role=eventName]',
-        'model.childName': {
+        'model.childrenNames': {
             type: 'attribute',
-            role: 'eventName',
+            role: 'childName',
             name: 'href'
         }
     }

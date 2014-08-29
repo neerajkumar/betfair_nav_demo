@@ -13,7 +13,7 @@ module.exports = Router.extend({
     routes: {
         '': 'home',
         'collections': 'collectionDemo',
-        'event_types/:eventName': 'EventsCollectionView',
+        'event_types/:id': 'EventsCollectionView',
         '(*path)': 'catchAll'
     },
 
@@ -34,9 +34,7 @@ module.exports = Router.extend({
 
     EventsCollectionView: function(id) {
         this.trigger('page', new EventsCollectionView({
-            model: me,
-            id: id,
-            collection: app.people
+            id: id
         }))
     },
 
