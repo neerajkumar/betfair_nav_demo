@@ -5,13 +5,5 @@ module.exports = AmpersandModel.extend({
         id: 'any',
         name: ['string', true, ''],
         children: ['array', true, '']
-    },
-    deriveddd: {
-        childrenNames: {
-            def: ['name'],
-            fn: function (){
-                return this.name;
-            }
-        }
     }
 });
