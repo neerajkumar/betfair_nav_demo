@@ -44,14 +44,10 @@ module.exports = AmpersandModel.extend({
                 return this.name
             }
         },
-        childrenNames:{
-            deps: ['children'],
+        viewEventUrl: {
+            deps: ['id'],
             fn: function () {
-                var events = []
-                for(var i = 0; i < this.children.length; i++){
-                    events.push(this.children[i].name)
-                }
-                return events.join(", ")
+                return '/events/' + this.id
             }
         }
     }

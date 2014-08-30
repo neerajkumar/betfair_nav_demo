@@ -14,6 +14,7 @@ module.exports = Router.extend({
         '': 'home',
         'collections': 'collectionDemo',
         'event_types/:id': 'EventsCollectionView',
+        'events/:id': 'EventsCollectionView',
         '(*path)': 'catchAll'
     },
 

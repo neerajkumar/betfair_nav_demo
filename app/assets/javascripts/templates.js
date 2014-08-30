@@ -35,7 +35,7 @@
 
     // includes/person.jade compiled template
     templatizer["pages"]["event"] = function tmpl_pages_eventView() {
-        return '<section class="page view-person"><h2 role="name"></h2><a role="childName"></a><ul role="events-list" class="list-group"></ul></section>'
+        return '<section class="page view-person"><h2 role="name"></h2><ul role="events-list" class="list-group"></ul></section>'
     };
 
     // pages/collectionDemo.jade compiled template
