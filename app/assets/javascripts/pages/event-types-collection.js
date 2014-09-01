@@ -4,7 +4,7 @@ var EventView = require('../views/event');
 var Collection = require('../models/persons');
 
 module.exports = PageView.extend({
-    pageTitle: 'Events',
+    pageTitle: 'Event Types',
     template: templates.pages.event,
     bindings: {
         'model.name': '[role=name]',
@@ -19,9 +19,9 @@ module.exports = PageView.extend({
         if (this.model != undefined){
             var childrenNodes = new Collection(this.model.children)
             this.renderCollection(childrenNodes, EventView, this.getByRole('events-list'));
-//            if (!childrenNodes.length) {
-//                this.fetchCollection();
-//            }
+            if (!childrenNodes.length) {
+                this.fetchCollection();
+            }
         }
     },
     fetchCollection: function () {
@@ -31,28 +31,8 @@ module.exports = PageView.extend({
     initialize: function (spec) {
         var self = this;
         var collection = this.collection || app.people
-        var data = []
-        var extractData = function(json, spec) {
-            var i = 0;
-            if (data.length == 0) {
-                while (i < json.length) {
-                    if (json.models[i].id == spec.id) {
-                        data = json;
-                        break;
-                    } else if (json.models[i].children == undefined) {
-                        break;
-                    } else {
-                        extractData(new Collection(json.models[i].children), spec);
-                    }
-                    i++;
-                }
-            }
-            if (data.length > 0) {
-                return data;
-            }
-        };
-        extractData(collection, spec).getOrFetch(spec.id, function(err, model){
-            if (err) alert("couldn't find a model with id: " + spec.id);
+        collection.getOrFetch(spec.id, function(err, model){
+            if (err) alert("couldnt find a model with id: " + spec.id);
             self.model = model
         })
     }

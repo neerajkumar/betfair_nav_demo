@@ -1,19 +1,15 @@
 /*global me, app*/
 var Router = require('ampersand-router');
-//var HomePage = require('./pages/home');
 var CollectionDemo = require('./pages/collection-demo');
-//var InfoPage = require('./pages/info');
-//var PersonAddPage = require('./pages/person-add');
-//var PersonEditPage = require('./pages/person-edit');
-//var PersonViewPage = require('./pages/person-view');
 var EventsCollectionView = require('./pages/events-collection')
+var EventTypesCollectionView = require('./pages/event-types-collection')
 
 
 module.exports = Router.extend({
     routes: {
         '': 'home',
         'collections': 'collectionDemo',
-        'event_types/:id': 'EventsCollectionView',
+        'event_types/:id': 'EventTypesCollectionView',
         'events/:id': 'EventsCollectionView',
         '(*path)': 'catchAll'
     },
@@ -31,6 +27,12 @@ module.exports = Router.extend({
             model: me,
             collection: app.people
         }));
+    },
+
+    EventTypesCollectionView: function(id) {
+        this.trigger('page', new EventTypesCollectionView({
+            id: id
+        }))
     },
 
     EventsCollectionView: function(id) {
