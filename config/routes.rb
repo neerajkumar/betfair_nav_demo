@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resource :betfair_clients, only: [:index]
 
   resources :event_types, only: [:show]
+  resources :events, only: [:show]
 
   namespace :api, defaults: {format: :json} do
     resources :betfair_roots, only: [:index] do
