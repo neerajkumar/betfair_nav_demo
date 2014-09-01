@@ -19,14 +19,7 @@ module.exports = PageView.extend({
         if (this.model != undefined){
             var childrenNodes = new Collection(this.model.children)
             this.renderCollection(childrenNodes, EventView, this.getByRole('events-list'));
-            if (!childrenNodes.length) {
-                this.fetchCollection();
-            }
         }
-    },
-    fetchCollection: function () {
-        (new Collection(this.model.children)).fetch();
-        return false;
     },
     initialize: function (spec) {
         var self = this;
@@ -51,9 +44,12 @@ module.exports = PageView.extend({
                 return data;
             }
         };
-        extractData(collection, spec).getOrFetch(spec.id, function(err, model){
-            if (err) alert("couldn't find a model with id: " + spec.id);
-            self.model = model
-        })
+        this.collection = extractData(collection, spec)
+        if (this.collection != undefined) {
+            this.collection.getOrFetch(spec.id, function(err, model){
+                if (err) alert("couldn't find a model with id: " + spec.id);
+                self.model = model
+            })
+        }
     }
 })
