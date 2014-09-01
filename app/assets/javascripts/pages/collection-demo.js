@@ -1,6 +1,6 @@
 var PageView = require('./base');
 var templates = require('../templates');
-var PersonView = require('../views/person');
+var PersonView = require('../views/betfair_root');
 
 
 module.exports = PageView.extend({

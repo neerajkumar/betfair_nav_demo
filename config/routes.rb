@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   resource :betfair_clients, only: [:index]
 
+  resources :event_types, only: [:show]
+
   namespace :api, defaults: {format: :json} do
     resources :betfair_roots, only: [:index] do
       collection do
@@ -20,7 +22,6 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'betfair_clients#index'
 
-  resources :event_types
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

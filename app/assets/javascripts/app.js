@@ -7,8 +7,9 @@ var Router = require('./router');
 //var tracking = require('./helpers/metrics'); global mixpanel
 var MainView = require('./views/main');
 var Me = require('./models/me');
-var People = require('./models/persons');
+var People = require('./models/betfair_factory');
 var domReady = require('domready');
+
 
 
 module.exports = {

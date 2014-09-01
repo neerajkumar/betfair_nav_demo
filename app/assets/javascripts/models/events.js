@@ -1,4 +1,4 @@
-var Collection = require('./persons');
+var Collection = require('./betfair_factory');
 var Event = require('./event');
 
 module.exports = Collection.extend({

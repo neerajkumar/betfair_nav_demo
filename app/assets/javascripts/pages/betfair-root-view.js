@@ -5,8 +5,8 @@ var templates = require('../templates');
 
 
 module.exports = PageView.extend({
-    pageTitle: 'view person',
-    template: templates.pages.personView,
+    pageTitle: 'View Betfair Roots',
+    template: templates.pages.BetfairRootView,
     bindings: {
         'model.fullName': {
             role: 'name'

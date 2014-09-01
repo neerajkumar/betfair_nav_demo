@@ -23,19 +23,19 @@
         return '<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/><meta name="apple-mobile-web-app-capable" content="yes"/>';
     };
 
-    // includes/person.jade compiled template
-    templatizer["includes"]["person"] = function tmpl_includes_person() {
-        return '<li class="person list-group-item"><a role="eventTypeName"></a></li>';
+    // includes/betfair_root.jade compiled template
+    templatizer["includes"]["betfair_root"] = function tmpl_includes_betfair_root() {
+        return '<li class="list-group-item"><a role="eventTypeName"></a></li>';
     };
 
-    // includes/person.jade compiled template
+    // includes/event.jade compiled template
     templatizer["includes"]["event"] = function tmpl_includes_event() {
-        return '<li class="person list-group-item"><a role="name"></a></li>';
+        return '<li class="list-group-item"><a role="name"></a></li>';
     };
 
-    // includes/person.jade compiled template
+    // includes/event.jade compiled template
     templatizer["pages"]["event"] = function tmpl_pages_eventView() {
-        return '<section class="page view-person"><h2 role="name"></h2><ul role="events-list" class="list-group"></ul></section>'
+        return '<section class="page view-betfair-root"><h2 role="name"></h2><ul role="events-list" class="list-group"></ul></section>'
     };
 
     // pages/collectionDemo.jade compiled template
@@ -44,12 +44,12 @@
     };
 
     templatizer["pages"]["eventTypeView"] = function tmpl_pages_eventTypeView(){
-        return '<section class="page view-person"><ul role="events-list" class="list-group"></ul></section>'
+        return '<section class="page view-betfair-root"><ul role="events-list" class="list-group"></ul></section>'
     }
 
-    // pages/personView.jade compiled template
-    templatizer["pages"]["personView"] = function tmpl_pages_personView() {
-        return '<section class="page view-person"><h2 role="name"></h2><a role="childName"></a><img role="avatar" width="80" height="80"/><div class="buttons"><a role="edit" class="btn">Edit</a><button role="delete" class="btn">Delete</button></div></section>';
+    // pages/BetfairRootView.jade compiled template
+    templatizer["pages"]["BetfairRootView"] = function tmpl_pages_BetfairRootView() {
+        return '<section class="page view-betfair-root"><h2 role="name"></h2><a role="childName"></a><img role="avatar" width="80" height="80"/><div class="buttons"><a role="edit" class="btn">Edit</a><button role="delete" class="btn">Delete</button></div></section>';
     };
 
     return templatizer;

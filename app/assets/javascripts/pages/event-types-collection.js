@@ -1,7 +1,7 @@
 var PageView = require('./base');
 var templates = require('../templates');
 var EventView = require('../views/event');
-var Collection = require('../models/persons');
+var Collection = require('../models/betfair_factory');
 
 module.exports = PageView.extend({
     pageTitle: 'Event Types',

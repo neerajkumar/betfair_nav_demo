@@ -2,7 +2,7 @@ var View = require('ampersand-view');
 var templates = require('../templates');
 
 module.exports = View.extend({
-    template: templates.includes.person,
+    template: templates.includes.betfair_root,
     bindings: {
         'model.viewUrl': {
             type: 'attribute',
