@@ -23,7 +23,7 @@ module.exports = PageView.extend({
     },
     initialize: function (spec) {
         var self = this;
-        var collection = this.collection || app.people
+        var collection = this.collection || app.betfair_roots
         var data = []
         var extractData = function(json, spec) {
             var i = 0;

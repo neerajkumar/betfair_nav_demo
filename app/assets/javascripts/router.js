@@ -18,26 +18,28 @@ module.exports = Router.extend({
     home: function () {
         this.trigger('page', new CollectionDemo({
             model: me,
-            collection: app.people
+            collection: app.betfair_roots
         }));
     },
 
     collectionDemo: function () {
         this.trigger('page', new CollectionDemo({
             model: me,
-            collection: app.people
+            collection: app.betfair_roots
         }));
     },
 
     EventTypesCollectionView: function(id) {
         this.trigger('page', new EventTypesCollectionView({
-            id: id
+            id: id,
+            collection: app.betfair_roots
         }))
     },
 
     EventsCollectionView: function(id) {
         this.trigger('page', new EventsCollectionView({
-            id: id
+            id: id,
+            collection: app.betfair_roots
         }))
     },
 

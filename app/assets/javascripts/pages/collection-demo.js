@@ -1,6 +1,6 @@
 var PageView = require('./base');
 var templates = require('../templates');
-var PersonView = require('../views/betfair_root');
+var BetfairRootView = require('../views/betfair_root');
 
 
 module.exports = PageView.extend({
@@ -8,7 +8,7 @@ module.exports = PageView.extend({
     template: templates.pages.collectionDemo,
     render: function () {
         this.renderWithTemplate();
-        this.renderCollection(this.collection, PersonView, this.getByRole('people-list'));
+        this.renderCollection(this.collection, BetfairRootView, this.getByRole('betfair-roots-list'));
         if (!this.collection.length) {
             this.fetchCollection();
         }

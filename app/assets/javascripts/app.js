@@ -7,7 +7,7 @@ var Router = require('./router');
 //var tracking = require('./helpers/metrics'); global mixpanel
 var MainView = require('./views/main');
 var Me = require('./models/me');
-var People = require('./models/betfair_factory');
+var BetfairFactory = require('./models/betfair_factory');
 var domReady = require('domready');
 
 
@@ -19,7 +19,7 @@ module.exports = {
 
         // create our global 'me' object and an empty collection for our people models.
         window.me = new Me();
-        this.people = new People();
+        this.betfair_roots = new BetfairFactory();
 
         // init our URL handlers and the history tracker
         this.router = new Router();

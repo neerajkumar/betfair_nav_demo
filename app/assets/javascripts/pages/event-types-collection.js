@@ -30,7 +30,7 @@ module.exports = PageView.extend({
     },
     initialize: function (spec) {
         var self = this;
-        var collection = this.collection || app.people
+        var collection = (this.collection.models.length > 0) ? this.collection : new Collection(app.betfair_roots.fetch())
         collection.getOrFetch(spec.id, function(err, model){
             if (err) alert("couldnt find a model with id: " + spec.id);
             self.model = model

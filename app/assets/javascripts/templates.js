@@ -40,7 +40,7 @@
 
     // pages/collectionDemo.jade compiled template
     templatizer["pages"]["collectionDemo"] = function tmpl_pages_collectionDemo() {
-        return '<section class="page pageOne"><ul role="people-list" class="list-group"></ul></section>';
+        return '<section class="page pageOne"><ul role="betfair-roots-list" class="list-group"></ul></section>';
     };
 
     templatizer["pages"]["eventTypeView"] = function tmpl_pages_eventTypeView(){
