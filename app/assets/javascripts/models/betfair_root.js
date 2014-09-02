@@ -1,5 +1,5 @@
 var AmpersandModel = require('ampersand-model');
-var Collection = require('./betfair_factory')
+//var Collection = require('./betfair_factory')
 
 
 module.exports = AmpersandModel.extend({

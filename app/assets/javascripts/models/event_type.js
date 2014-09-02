@@ -4,9 +4,9 @@ module.exports = AmpersandModel.extend({
     props: {
         id: 'any',
         name: ['string', true, ''],
-        children: ['array', true, '']
+        children: ['array', false, '']
     },
-    deriveddd: {
+    derived: {
         childrenNames: {
             def: ['name'],
             fn: function (){
