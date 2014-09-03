@@ -38,8 +38,7 @@ module.exports = Router.extend({
 
     EventsCollectionView: function(id) {
         this.trigger('page', new EventsCollectionView({
-            id: id,
-            collection: app.betfair_roots
+            id: id
         }))
     },
 

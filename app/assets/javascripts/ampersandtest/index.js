@@ -1,2 +1,9 @@
 var test = require('tape');
-var EventsCollectionTest = require('../pages/events-collection')
+var Event = require('../models/event')
+
+test('init with values', function (t) {
+    var event = new Event({name: 'henrik'});
+    t.ok(event);
+    t.equal(event.name, 'henrik');
+    t.end();
+});

@@ -16,10 +16,23 @@ module.exports = PageView.extend({
     },
     render: function () {
         this.renderWithTemplate();
-        if (this.model != undefined){
+        var self = this;
+        if (this.model == undefined){
+            var spec_id = window.location.href.split("/")[window.location.href.split("/").length - 1];
+            app.betfair_roots.getOrFetch(spec_id, {all: true}, function(err, model){
+                if (err) alert("couldnt find a model with id: " + spec_id);
+                self.model = model;
+                var childrenNodes = new Collection(self.model.children)
+                self.renderCollection(childrenNodes, EventView, self.getByRole('events-list'));
+                if (!app.betfair_roots.length) {
+                    self.fetchCollection();
+                }
+            })
+        }
+        else {
             var childrenNodes = new Collection(this.model.children)
             this.renderCollection(childrenNodes, EventView, this.getByRole('events-list'));
-            if (!childrenNodes.length) {
+            if (!app.betfair_roots.length) {
                 this.fetchCollection();
             }
         }
