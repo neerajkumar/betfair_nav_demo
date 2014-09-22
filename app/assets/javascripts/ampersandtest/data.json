@@ -1,0 +1,1843 @@
+[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040858",
+                                                "marketStartTime": "2014-09-01T20:30:00.000Z",
+                                                "name": "Edmonton +5.5pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040857",
+                                                "marketStartTime": "2014-09-01T20:30:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040859",
+                                                "marketStartTime": "2014-09-01T20:30:00.000Z",
+                                                "name": "Under/Over 50.5pts",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27249842",
+                                        "name": "Edmonton @ Calgary",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040855",
+                                                "marketStartTime": "2014-09-01T17:00:00.000Z",
+                                                "name": "Hamilton +2.5pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040854",
+                                                "marketStartTime": "2014-09-01T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115040856",
+                                                "marketStartTime": "2014-09-01T17:00:00.000Z",
+                                                "name": "Under/Over 49.5pts",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27249841",
+                                        "name": "Toronto @ Hamilton",
+                                        "type": "EVENT"
+                                    }
+                                ],
+                                "id": "74587714204",
+                                "name": "Games 01 September",
+                                "type": "GROUP"
+                            }
+                        ],
+                        "id": "74587714228",
+                        "name": "Week 10",
+                        "type": "GROUP"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.114348454",
+                        "marketStartTime": "2014-06-27T00:30:00.000Z",
+                        "name": "Winner",
+                        "type": "MARKET"
+                    }
+                ],
+                "id": "27216471",
+                "name": "CFL 2014",
+                "type": "EVENT"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096761",
+                                        "marketStartTime": "2014-09-02T00:00:00.000Z",
+                                        "name": "Miami (FL) +3.5pts",
+                                        "type": "MARKET"
+                                    },
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096760",
+                                        "marketStartTime": "2014-09-02T00:00:00.000Z",
+                                        "name": "Moneyline",
+                                        "type": "MARKET"
+                                    },
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096762",
+                                        "marketStartTime": "2014-09-02T00:00:00.000Z",
+                                        "name": "Under/Over 54.5pts",
+                                        "type": "MARKET"
+                                    }
+                                ],
+                                "id": "27252102",
+                                "name": "Miami (FL) @ Louisville",
+                                "type": "EVENT"
+                            }
+                        ],
+                        "id": "74587712438",
+                        "name": "Games 01 September",
+                        "type": "GROUP"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096757",
+                                        "marketStartTime": "2014-08-31T23:30:00.000Z",
+                                        "name": "Moneyline",
+                                        "type": "MARKET"
+                                    },
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096758",
+                                        "marketStartTime": "2014-08-31T23:30:00.000Z",
+                                        "name": "SMU +32.5pts",
+                                        "type": "MARKET"
+                                    },
+                                    {
+                                        "exchangeId": "1",
+                                        "id": "1.115096759",
+                                        "marketStartTime": "2014-08-31T23:30:00.000Z",
+                                        "name": "Under/Over 74.5pts",
+                                        "type": "MARKET"
+                                    }
+                                ],
+                                "id": "27252100",
+                                "name": "SMU @ Baylor",
+                                "type": "EVENT"
+                            }
+                        ],
+                        "id": "74587712432",
+                        "name": "Games 31 August",
+                        "type": "GROUP"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.115013739",
+                        "marketStartTime": "2014-08-27T23:00:00.000Z",
+                        "name": "Heisman Trophy 2014",
+                        "type": "MARKET"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.114396603",
+                        "marketStartTime": "2014-08-27T23:00:00.000Z",
+                        "name": "Winner",
+                        "type": "MARKET"
+                    }
+                ],
+                "id": "27219903",
+                "name": "NCAAF 2014/15",
+                "type": "EVENT"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167085",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "AFC East",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167086",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "AFC North",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167087",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "AFC South",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167088",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "AFC West",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167089",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "NFC East",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167090",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "NFC North",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167091",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "NFC South",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.114167092",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "NFC West",
+                                "type": "MARKET"
+                            }
+                        ],
+                        "id": "27206496",
+                        "name": "Division Markets",
+                        "type": "EVENT"
+                    },
+                    {
+                        "children": [
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009287",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Arizona Cardinals",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009263",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Atlanta Falcons",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009377",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Baltimore Ravens",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009315",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Buffalo Bills",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009240",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Carolina Panthers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009206",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Chicago Bears",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009374",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Cincinnati Bengals",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009375",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Cleveland Browns",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115008851",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Dallas Cowboys",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009384",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Denver Broncos",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009203",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Detroit Lions",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009211",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Green Bay Packers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009388",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Houston Texans",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009379",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Indianapolis Colts",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009382",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Jacksonville Jaguars",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009386",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Kansas City Chiefs",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009314",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Miami Dolphins",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009186",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Minnesota Vikings",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009316",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "New England Patriots",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009264",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "New Orleans Saints",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115008852",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "New York Giants",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009317",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "New York Jets",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009378",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Oakland Raiders",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115008849",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Philadelphia Eagles",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009376",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Pittsburgh Steelers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009385",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "San Diego Chargers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009283",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "San Francisco 49ers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009288",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Seattle Seahawks",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009285",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "St Louis Rams",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009262",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Tampa Bay Buccaneers",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115009380",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Tennessee Titans",
+                                "type": "MARKET"
+                            },
+                            {
+                                "exchangeId": "1",
+                                "id": "1.115008850",
+                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                "name": "Washington Redskins",
+                                "type": "MARKET"
+                            }
+                        ],
+                        "id": "27248679",
+                        "name": "Season Wins",
+                        "type": "EVENT"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176973",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176976",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177001",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177002",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177003",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177004",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176989",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176986",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176985",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176991",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176983",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176980",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176979",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176961",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176987",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176988",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176993",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Race To 10 Points",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176994",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176981",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115176982",
+                                                "marketStartTime": "2014-09-05T00:30:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255012",
+                                        "name": "Green Bay @ Seattle",
+                                        "type": "EVENT"
+                                    }
+                                ],
+                                "id": "74587709136",
+                                "name": "Games 04 September",
+                                "type": "GROUP"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177520",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177523",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177513",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177519",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177525",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255027",
+                                        "name": "Buffalo @ Chicago",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178074",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178077",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178067",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178073",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178079",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255036",
+                                        "name": "Carolina @ Tampa Bay",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177319",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177322",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177310",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177318",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177324",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255024",
+                                        "name": "Cincinnati @ Baltimore",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177089",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177092",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177082",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177088",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177094",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255018",
+                                        "name": "Cleveland @ Pittsburgh",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178137",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178140",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178165",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178166",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178167",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178168",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178153",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178150",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178149",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178155",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178147",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178144",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178143",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178125",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178151",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178152",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178158",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178145",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178146",
+                                                "marketStartTime": "2014-09-08T00:30:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255038",
+                                        "name": "Indianapolis @ Denver",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177102",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177105",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177095",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177101",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177107",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255019",
+                                        "name": "Jacksonville @ Philadelphia",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177028",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177031",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177021",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177027",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177033",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255016",
+                                        "name": "Minnesota @ St Louis",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178034",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178037",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178062",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178063",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178064",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178065",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178050",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178047",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178046",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178052",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178044",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178041",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178040",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178022",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178048",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178049",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178054",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Race To 10 Points",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178055",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178042",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178043",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255035",
+                                        "name": "New England @ Miami",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177015",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177018",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177008",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177014",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177020",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255015",
+                                        "name": "New Orleans @ Atlanta",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177116",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177119",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177109",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177115",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177121",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255020",
+                                        "name": "Oakland @ NY Jets",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178093",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178096",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178121",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178122",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178123",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178124",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178109",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178106",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178105",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178111",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178103",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178100",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178099",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178081",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178107",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178108",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178113",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Race To 10 Points",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178114",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178101",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178102",
+                                                "marketStartTime": "2014-09-07T20:25:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255037",
+                                        "name": "San Francisco @ Dallas",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178016",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178019",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178009",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178015",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178021",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255034",
+                                        "name": "Tennessee @ Kansas City",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177773",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177783",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Half Time/Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177759",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177768",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115177796",
+                                                "marketStartTime": "2014-09-07T17:00:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255031",
+                                        "name": "Washington @ Houston",
+                                        "type": "EVENT"
+                                    }
+                                ],
+                                "id": "74587709142",
+                                "name": "Games 07 September",
+                                "type": "GROUP"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178181",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178184",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178210",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178211",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178212",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178213",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178197",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178194",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178193",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178199",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178191",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178188",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178187",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178169",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178195",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178196",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178201",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Race To 10 Points",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178202",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178189",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178190",
+                                                "marketStartTime": "2014-09-08T23:10:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255040",
+                                        "name": "NY Giants @ Detroit",
+                                        "type": "EVENT"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178226",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "1st Half Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178229",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "1st Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178254",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "1st Quarter Touchdown?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178255",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "2nd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178256",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "3rd Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178257",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "4th Quarter Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178242",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Field Goal Missed",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178239",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "First Scoring Play",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178238",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "First Team to Score",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178244",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "First Touchdown Type",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178236",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Half Time / Full Time",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178233",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Highest Scoring Half",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178232",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Highest Scoring Quarter",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178214",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Moneyline",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178240",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Odd or Even Total Pts",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178241",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Overtime Played?",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178246",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Race To 10 Points",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178247",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Two Point Conversion",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178234",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Winning Margin",
+                                                "type": "MARKET"
+                                            },
+                                            {
+                                                "exchangeId": "1",
+                                                "id": "1.115178235",
+                                                "marketStartTime": "2014-09-09T02:20:00.000Z",
+                                                "name": "Winning Margin 2",
+                                                "type": "MARKET"
+                                            }
+                                        ],
+                                        "id": "27255041",
+                                        "name": "San Diego @ Arizona",
+                                        "type": "EVENT"
+                                    }
+                                ],
+                                "id": "74587709132",
+                                "name": "Games 08 September",
+                                "type": "GROUP"
+                            }
+                        ],
+                        "id": "74587709165",
+                        "name": "Week 1",
+                        "type": "GROUP"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.112697943",
+                        "marketStartTime": "2014-09-05T00:30:00.000Z",
+                        "name": "AFC Conference Winner",
+                        "type": "MARKET"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.112697944",
+                        "marketStartTime": "2014-09-05T00:30:00.000Z",
+                        "name": "NFC Conference Winner",
+                        "type": "MARKET"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.112697942",
+                        "marketStartTime": "2014-09-05T00:30:00.000Z",
+                        "name": "Super Bowl Combo",
+                        "type": "MARKET"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.112697941",
+                        "marketStartTime": "2014-09-05T00:30:00.000Z",
+                        "name": "Super Bowl Winner",
+                        "type": "MARKET"
+                    },
+                    {
+                        "exchangeId": "1",
+                        "id": "1.114471815",
+                        "marketStartTime": "2014-09-05T00:30:00.000Z",
+                        "name": "Super Bowl Winning Division",
+                        "type": "MARKET"
+                    }
+                ],
+                "id": "27142622",
+                "name": "NFL Season 2014/15",
+                "type": "EVENT"
+            }
+        ],
+        "id": "6423",
+        "name": "American Football",
+        "type": "EVENT_TYPE"
+    }
+]
