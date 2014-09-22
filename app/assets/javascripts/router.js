@@ -7,10 +7,10 @@ var EventTypesCollectionView = require('./pages/event-types-collection')
 
 module.exports = Router.extend({
     routes: {
-        '': 'home',
-        'collections': 'collectionDemo',
-        'event_types/:id': 'EventTypesCollectionView',
-        'events/:id': 'EventsCollectionView',
+        'ampersand_clients': 'home',
+        'ampersand_clients/collections': 'collectionDemo',
+        'ampersand_clients/event_types/:id': 'EventTypesCollectionView',
+        'ampersand_clients/events/:id': 'EventsCollectionView',
         '(*path)': 'catchAll'
     },
 

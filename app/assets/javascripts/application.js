@@ -17,4 +17,7 @@
 //= require angular-resource
 //= require angular-route
 //= require bundle
-//= require_tree .
+//= require angular_clients
+//= require angular_routing
+//= require angular-breadcrumb.min
+//= require angular-ui-router

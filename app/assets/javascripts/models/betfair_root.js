@@ -16,7 +16,7 @@ module.exports = AmpersandModel.extend({
         viewUrl: {
             deps: ['id'],
             fn: function () {
-                return '/event_types/' + this.id;
+                return '/ampersand_clients/event_types/' + this.id;
             }
         },
         eventType: {
@@ -28,7 +28,7 @@ module.exports = AmpersandModel.extend({
         viewEventUrl: {
             deps: ['id'],
             fn: function () {
-                return '/events/' + this.id
+                return '/ampersand_clients/events/' + this.id
             }
         }
     }

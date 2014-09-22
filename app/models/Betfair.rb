@@ -4,7 +4,8 @@ class Betfair
 
   attr_accessor :data, :nested_data
 
-  @@data ||= JSON.parse(Resourceful.get('https://d1zgsxlgpxt59q.cloudfront.net/exchange/betting/rest/v1/en/navigation/lhm.json').body)["children"]
+  #@@data ||= JSON.parse(Resourceful.get('https://d1zgsxlgpxt59q.cloudfront.net/exchange/betting/rest/v1/en/navigation/lhm.json').body)["children"]
+  @@data ||= JSON.parse(File.read("#{Rails.root}/app/assets/javascripts/ampersandtest/data.json"))
 
   def initialize
     @data = @@data
