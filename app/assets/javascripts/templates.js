@@ -15,7 +15,7 @@
 
     // body.jade compiled template
     templatizer["body"] = function tmpl_body() {
-        return '<body><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header"><a href="/" class="navbar-brand">Ampersand Client</a></div></div></nav><div class="container"><main role="page-container"></main></div></body>';
+        return '<body><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header"><a href="/" class="brand"><h1>Rails Angular Ampersand</h1></a></div></div></nav><div class="container"><main role="page-container"></main></div></body>';
     };
 
     // head.jade compiled template
